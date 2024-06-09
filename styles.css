@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #3366cc;
+    color: white;
+    padding: 1em 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+    padding: 0.5em;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #f8f9fa;
+    padding: 1em 2em;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3366cc;
+}
+
+main {
+    padding: 2em;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 1em 2em;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+    font-size: 1em;
+    min-width: 400px;
+    border: 1px solid #dddddd;
+}
+
+table thead {
+    background-color: #f2f2f2;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
